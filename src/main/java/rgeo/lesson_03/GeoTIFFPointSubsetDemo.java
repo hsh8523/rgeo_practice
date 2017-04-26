@@ -20,7 +20,7 @@ import java.util.Arrays;
  * rodriges@wikience.org
  */
 public class GeoTIFFPointSubsetDemo {
-    public static String GeoTIFFSample = "/home/troy/Downloads/LC81390452014295LGN00_B1.TIF";
+    public static String GeoTIFFSample = "/home/troy/Downloads/LC81390452014295LGN00_B3.TIF";
     //public static String GeoTIFFSample = "d:\\RS_DATA\\Landsat8\\a.tif";
 
     private GridCoverage2D grid;

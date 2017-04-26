@@ -40,10 +40,13 @@ public class NDVIDemo {
     }
 
     // preprocessed bands
-    public static String NIRGTIFF = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\band5.tif";
-    public static String REDGTIFF = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\band4.tif";
+    public static String NIRGTIFF   = "/home/troy/Downloads/B5.TIF";
+    public static String  REDGTIFF = "/home/troy/Downloads/B4.TIF";
 
-    public static String NDVI = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\NDVI3.tif";
+//    public static String NIRGTIFF = "/home/troy/Downloads/LC81390452014295LGN00_B5.TIF";
+//    public static String REDGTIFF = "/home/troy/Downloads/LC81390452014295LGN00_B4.TIF";
+
+    public static String NDVI = "/home/troy/Downloads/NDVI3.tif";
 
     private RenderedImage NIR;
     private RenderedImage RED;

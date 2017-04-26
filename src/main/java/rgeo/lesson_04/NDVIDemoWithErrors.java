@@ -27,9 +27,13 @@ public class NDVIDemoWithErrors {
     static {
         JAIExt.initJAIEXT();
     }
-    public static String NIRGTIFF = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\LC81790212015146LGN00_sr_band4.tif";
-    public static String REDGTIFF = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\LC81790212015146LGN00_sr_band5.tif";
-    public static String NDVI = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\NDVI.tif";
+
+    public static String NIRGTIFF = "/home/troy/Downloads/LC80240322017057LGN00_B4.TIF";
+    public static String REDGTIFF = "/home/troy/Downloads/LC80240322017057LGN00_B5.TIF";
+
+//    public static String NIRGTIFF = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\LC81790212015146LGN00_sr_band4.tif";
+//    public static String REDGTIFF = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\LC81790212015146LGN00_sr_band5.tif";
+    public static String NDVI = "/home/troy/NDVI.tif";
 
     private RenderedImage NIR;
     private RenderedImage RED;

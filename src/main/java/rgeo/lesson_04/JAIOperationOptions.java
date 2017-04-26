@@ -12,6 +12,7 @@ public class JAIOperationOptions {
 
         System.out.println(processor.getOperations());
 
+
         // Getting Subtract operation -- no such operation
         //  Operation subtract = processor.getOperation("Subtract");
 

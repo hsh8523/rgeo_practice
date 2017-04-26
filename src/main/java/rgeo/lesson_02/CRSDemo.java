@@ -16,7 +16,7 @@ import java.io.IOException;
  */
 
 public class CRSDemo {
-    public static String GeoTIFFSample = "d:\\RS_DATA\\Landsat8\\LC81790212015146-SC20150806075046\\LC81790212015146LGN00_sr_band1.tif";
+    public static String GeoTIFFSample = "/home/troy/Downloads/LC81390452014295LGN00_B3.TIF";
 
     public static void demo1() throws FactoryException {
         CoordinateReferenceSystem crs = CRS.decode("EPSG:32637");
